@@ -1,0 +1,26 @@
+{
+  "histories": 100,
+  "unique_operations_per_history": 25,
+  "submitted_trace_events": 5000,
+  "reference_matches": 100,
+  "injected_exceptions": 837,
+  "mean_counterexample_reduction_percent": 96.0,
+  "median_history_ms": 1653.898,
+  "p95_history_ms": 2210.217,
+  "failure_model": "Exceptions at commit/ack boundaries and connection reopen; not OS power-failure testing.",
+  "minimizer_subject": "Deliberately seeded duplicate-application bug, not a production bug.",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel"
+  },
+  "generated_at_utc": "2026-11-16T16:59:00.568106+00:00",
+  "scope": "Synthetic local benchmark, not production traffic or independent validation.",
+  "source_sha256": {
+    "app.py": "030a57543f817826fd549a842887fcabf13451d90d90680e496e3ad3ea225ed4",
+    "benchmark.py": "2487f2d3fc46e7353de06896091d1004d1f47dda39e41827dbb3b7255011e0bf",
+    "core.py": "d337a2b26b18a43bad400772e12b8a4bb0853c53ae60ab1485aaf03d04171e83",
+    "reporting.py": "b2ef02372026ec29643294d9cb7d96a4ede3dc780bf41972e35e02d9c0e136b9",
+    "ui.py": "e48984f498191a74d681f81c7dcb45ba6de3e878cf1c8df5bb92696ff754583d"
+  }
+}
